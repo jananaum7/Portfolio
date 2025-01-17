@@ -29,7 +29,7 @@ This project involves analyzing the effects of music on mental health based on d
 2. Linear Regression Plots
 3. Bar Charts
 4. Scatter Plots
-Repository:
+#### Repository:
 [The Effect of Music on Mental Health](https://github.com/karinaahumada01/project-1?tab=readme-ov-file)
 #### Summary:
 In this project, we worked with a dataset of survey responses to answer several key questions about the relationship between music and mental health. We used Python for data cleaning, analysis, and visualization, producing various charts to better understand how music influences mental health across different genres and demographics.
