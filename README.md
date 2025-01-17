@@ -6,8 +6,8 @@
 3. [Skills & Tools](#skills--tools)
 4. [Contact](#contact)
 
-## Introduction 
 # Welcome to My Portfolio!  
+## Introduction 
 Hi, my name is Janatul, I usually just go by Jana! This portfolio showcases my work in Python programming, data analysis, Excel (including VBA), SQL, ETL pipelines, and more. Below, you’ll find an overview of projects and assignments where I leveraged tools and technologies like Python, Excel, and SQL to extract insights, clean data, and develop effective solutions.
 
 ## Projects & Assignments
