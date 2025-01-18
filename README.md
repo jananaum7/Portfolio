@@ -88,12 +88,12 @@ The Country Comparison Project is a comprehensive data analysis and visualizatio
      **percentages_data.json**.
 2. **Web Application**:
    - Open **interactive maps/index.html** in a browser.
-   - Use drop down menus to select statistics (e.g., GDP, inflation rate) and years. The map dynamically updates, displaying 
-     trends across countries with color-coded indicators.
+   - Use drop down menus to select statistics (e.g., GDP, inflation rate) and years. The map dynamically updates, 
+     displaying trends across countries with color-coded indicators.
 3. **Python Interactive Visualizations**:
    - Open **country_comparison_python_visuals.ipynb** to analyze datasets further and produce additional visualizations. 
 #### Technologies Used:
-1. Python Libraries**:
+1. Python Libraries:
    - **Pandas & NumPy**: for data manipulation.
    - **Matplotlib & Seaborn**: for visualizations.
    - **D3.js**: for color scaling and dynamic data binding in the web interface.
@@ -103,11 +103,11 @@ The Country Comparison Project is a comprehensive data analysis and visualizatio
 3. Data Formats:
    - **JSON**: for structured data integration into the interactive map.
 #### Data Insights:
-1. Global Trends:
+1. **Global Trends**:
    - Visualizations revealed correlations between global events (e.g., pandemics, financial crises) and economic indicators.
    - Key insights include shifts in healthcare expenditure during COVID-19 and changes in unemployment during the 2008 
      financial crisis.
-2. Interactive Features:
+2. **Interactive Features**:
    - The map allows users to explore year-over-year changes and compare metrics across countries.
    - Drop down selections enhance the user experience by enabling specific data filtering.
 #### Repository: 
