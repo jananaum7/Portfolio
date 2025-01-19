@@ -115,3 +115,84 @@ The Country Comparison Project is a comprehensive data analysis and visualizatio
 #### Summary:
 This project offers a comprehensive platform for exploring global trends through interactive maps and Python-based visualizations. It allows users to delve into economic and social indicators over time, offering valuable insights into the impact of historical and contemporary events on various countries. The interactive and analytical components make it a versatile tool for education, research, and policy evaluation.
 
+### Project 4: Credit Score Classification
+#### Overview:
+This project focuses on analyzing financial data to predict and classify credit scores into categories like Good, Standard, and Poor. By leveraging data cleaning, feature engineering, and machine learning models such as Logistic Regression, Neural Networks, and Random Forest, the project aims to create a system that assists financial institutions in evaluating credit risk efficiently and accurately.
+#### Key Objectives Explored:
+1. **Predicting Credit Scores**: Classifying individuals into categories based on financial and demographic features.
+2. **Understanding Key Factors**: Identifying variables that most influence credit scores, such as outstanding debt, credit 
+   mix, and credit history age.
+3. **Building Machine Learning Models**: Developing and evaluating classification models for high accuracy and 
+   interpretability.
+4. **Data Insights**: Understanding patterns in the dataset through visualization and correlation analysis.
+5. **Improving Decision-Making**: Assisting financial institutions in evaluating creditworthiness with data-driven 
+   approaches.
+#### Resources:
+1. **Raw Datasets**:
+   - test.csv
+   - train.csv
+2. **Cleaned Datasets**:
+   - test_cleaned.csv
+   - train_cleaned.csv
+   - test_cleaned_without_outliers.csv
+   - train_cleaned_without_outliers.csv
+3. **Jupyter Notebooks**:
+   - **main_data_cleaning_prep.ipynb**: Handles data cleaning and preparation.
+   - **heatmap_&_histogram_graph.ipynb**: Provides visualizations such as histograms and heatmaps.
+   - **Machine_Learning_Models.ipynb**: Analyzes the cleaned dataset using Random Forest, Gradient Boosting, and Decision 
+     Trees.
+4. **Logistic Regression and Neural Network Models**:
+   - Logistic_Regression_code.ipynb
+   - NN_Model_code.ipynb
+5. **Output Folder**:
+   - RF_GB_DT_Figures: Contains graph outputs from Machine_Learning_Models.ipynb.
+#### Technologies Used:
+1. Python Libraries:
+2. Pandas & NumPy for data manipulation.
+3. Matplotlib & Seaborn for visualizations.
+4. Scikit-learn for implementing machine learning models.
+5. TensorFlow for building and training neural networks.
+6. SQLAlchemy: For database interactions.
+4. Jupyter Notebook: For running data cleaning, analysis, and modeling.
+Data Preparation
+Cleaning Steps:
+
+Used infer_objects for mixed-type column detection.
+Removed null values, unrecognizable characters, and outliers.
+Converted credit_history_age to months and dropped the original column.
+Dropped irrelevant columns such as SSN, Occupation, Customer_ID, and others.
+Cleaned financial columns (Outstanding_Debt, Monthly_Balance) by replacing invalid characters.
+Insights:
+
+Moderate positive correlation (0.58) between the delay from due date and outstanding debt.
+Strong negative correlation (-0.63) between credit history age and outstanding debt.
+Key Findings
+Model Performance:
+
+Random Forest outperformed Gradient Boosting and Decision Trees in classification accuracy.
+Neural Network achieved significant accuracy (66.17%) with minimal overfitting.
+Logistic Regression was less effective for this dataset due to its complexity but demonstrated improved recall with balanced weights.
+Influential Features:
+
+Outstanding debt was identified as the most important factor in determining credit score.
+Good credit score classifications had more false positives/negatives compared to other classes.
+Contributors
+Karina Ahumada
+Tom Bagley
+Angelica Guerrero
+Dylon Wilson
+Jana Naum
+References
+Data Sources:
+
+MoneyMan Credit Card Approval Prediction (Kaggle)
+Credit Score Classification (Kaggle)
+Tools:
+
+OpenAI ChatGPT for guidance and troubleshooting.
+Xpert Learning Assistant.
+Repository
+Credit Score Classification
+
+Summary
+This project showcases how machine learning models can predict credit scores effectively based on financial data. The combination of Random Forest, Neural Networks, and detailed data preparation enabled the creation of a reliable classification system. By integrating statistical analysis and machine learning, the project provides a strong foundation for assisting financial institutions in credit risk evaluation.
