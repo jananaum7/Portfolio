@@ -154,45 +154,26 @@ This project focuses on analyzing financial data to predict and classify credit 
 5. TensorFlow for building and training neural networks.
 6. SQLAlchemy: For database interactions.
 4. Jupyter Notebook: For running data cleaning, analysis, and modeling.
-Data Preparation
-Cleaning Steps:
-
-Used infer_objects for mixed-type column detection.
-Removed null values, unrecognizable characters, and outliers.
-Converted credit_history_age to months and dropped the original column.
-Dropped irrelevant columns such as SSN, Occupation, Customer_ID, and others.
-Cleaned financial columns (Outstanding_Debt, Monthly_Balance) by replacing invalid characters.
-Insights:
-
-Moderate positive correlation (0.58) between the delay from due date and outstanding debt.
-Strong negative correlation (-0.63) between credit history age and outstanding debt.
-Key Findings
-Model Performance:
-
-Random Forest outperformed Gradient Boosting and Decision Trees in classification accuracy.
-Neural Network achieved significant accuracy (66.17%) with minimal overfitting.
-Logistic Regression was less effective for this dataset due to its complexity but demonstrated improved recall with balanced weights.
-Influential Features:
-
-Outstanding debt was identified as the most important factor in determining credit score.
-Good credit score classifications had more false positives/negatives compared to other classes.
-Contributors
-Karina Ahumada
-Tom Bagley
-Angelica Guerrero
-Dylon Wilson
-Jana Naum
-References
-Data Sources:
-
-MoneyMan Credit Card Approval Prediction (Kaggle)
-Credit Score Classification (Kaggle)
-Tools:
-
-OpenAI ChatGPT for guidance and troubleshooting.
-Xpert Learning Assistant.
-Repository
-Credit Score Classification
-
-Summary
-This project showcases how machine learning models can predict credit scores effectively based on financial data. The combination of Random Forest, Neural Networks, and detailed data preparation enabled the creation of a reliable classification system. By integrating statistical analysis and machine learning, the project provides a strong foundation for assisting financial institutions in credit risk evaluation.
+#### Data Preparation:
+1. Cleaning Steps
+   - Used infer_objects for mixed-type column detection.
+   - Removed null values, unrecognizable characters, and outliers.
+   - Converted credit_history_age to months and dropped the original column.
+   - Dropped irrelevant columns, such as SSN, Occupation, Customer_ID, and others.
+   - Cleaned financial columns (Outstanding_Debt, Monthly_Balance) by replacing invalid characters.
+2. Insights
+   - Moderate positive correlation (0.58) between the delay from the due date and outstanding debt.
+   - Strong negative correlation (-0.63) between credit history age and outstanding debt.
+#### Key Findings:
+1. Model Performance
+   - Random Forest outperformed Gradient Boosting and Decision Trees in classification accuracy.
+   - Neural Network achieved significant accuracy (66.17%) with minimal over-fitting.
+   - Logistic Regression was less effective for this dataset due to its complexity but demonstrated improved recall with 
+     balanced weights.
+2. Influential Features
+   - Outstanding debt was identified as the most important factor in determining credit score.
+   - Good credit score classifications had more false positives/negatives compared to other classes.
+#### Repository:
+[Credit Score Classification](https://github.com/jananaum7/Project-4)
+#### Summary:
+This project demonstrates the effective use of machine learning models to predict credit scores based on financial data. By using a combination of Random Forest and Neural Network algorithms, along with thorough data preparation, a reliable classification system was developed. The integration of data analysis and advanced machine learning techniques ensures accurate and accurate predictions. This project lays a solid foundation for financial institutions to enhance credit risk evaluation processes, enabling more informed decision-making and risk management.
