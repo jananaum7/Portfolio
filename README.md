@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Projects & Assignments](#projects_&_assignments)
-3. [Skills & Tools](#skills--tools)
+3. [Skills & Tools](#skills_&_tools)
 4. [Contact](#contact)
 
 # Welcome to My Portfolio!  
