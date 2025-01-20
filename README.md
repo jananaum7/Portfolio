@@ -8,7 +8,17 @@
 
 # Welcome to My Portfolio!  
 ## Introduction 
-Hi, my name is Janatul, I usually just go by Jana! This portfolio showcases my work in Python programming, data analysis, Excel (including VBA), SQL, ETL pipelines, and more. Below, you’ll find an overview of projects and assignments where I leveraged tools and technologies like Python, Excel, and SQL to extract insights, clean data, and develop effective solutions.
+Hi, my name is Janatul, but I usually go by Jana!
+
+Welcome to my portfolio! Here, you’ll find a collection of my work in Python programming, data analysis, Excel, SQL, ETL pipelines, and data visualizations.
+
+I enjoy working with tools like Excel, SQL, and Python to uncover insights, clean and transform data, and develop impactful solutions. Whether it’s designing interactive dashboards, crafting SQL queries, or building end-to-end ETL pipelines, I thrive on turning raw data into meaningful results.
+
+Below, you’ll find an overview of projects and assignments where I’ve applied my skills to:
+1. Visualize data in a clear and accessible way to inform decisions.
+2. Write efficient SQL queries to extract, analyze, and manipulate data.
+3. Clean and organize datasets in Excel to prepare them for analysis.
+Through these projects, I’ve honed my technical skills and developed a passion for creating solutions that combine the power of data with clear communication and actionable insights.
 
 ## Projects & Assignments
 
