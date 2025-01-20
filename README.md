@@ -18,6 +18,7 @@ Below, you’ll find an overview of projects and assignments where I’ve applie
 1. Visualize data in a clear and accessible way to inform decisions.
 2. Write efficient SQL queries to extract, analyze, and manipulate data.
 3. Clean and organize datasets in Excel to prepare them for analysis.
+
 Through these projects, I’ve honed my technical skills and developed a passion for creating solutions that combine the power of data with clear communication and actionable insights.
 
 ## Projects & Assignments
