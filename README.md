@@ -8,7 +8,18 @@
 
 # Welcome to My Portfolio!  
 ## Introduction 
-Hi, my name is Janatul, I usually just go by Jana! This portfolio showcases my work in Python programming, data analysis, Excel (including VBA), SQL, ETL pipelines, and more. Below, you’ll find an overview of projects and assignments where I leveraged tools and technologies like Python, Excel, and SQL to extract insights, clean data, and develop effective solutions.
+Hi, my name is Janatul, but I usually go by Jana!
+
+Welcome to my portfolio! Here, you’ll find a collection of my work in Python programming, data analysis, Excel, SQL, ETL pipelines, and data visualizations.
+
+I enjoy working with tools like Excel, SQL, and Python to uncover insights, clean and transform data, and develop impactful solutions. Whether it’s designing interactive dashboards, crafting SQL queries, or building end-to-end ETL pipelines, I thrive on turning raw data into meaningful results.
+
+Below, you’ll find an overview of projects and assignments where I’ve applied my skills to:
+1. Visualize data in a clear and accessible way to inform decisions.
+2. Write efficient SQL queries to extract, analyze, and manipulate data.
+3. Clean and organize datasets in Excel to prepare them for analysis.
+
+Through these projects, I’ve honed my technical skills and developed a passion for creating solutions that combine the power of data with clear communication and actionable insights.
 
 ## Projects & Assignments
 
@@ -100,7 +111,7 @@ This project leverages machine learning and data analysis to predict and classif
 #### Results:
 1. Key Feature: Outstanding Debt emerged as the most critical predictor of credit score.
 2. Best Performing Model: Random Forest delivered the most reliable accuracy for credit classification.
-3. Neural Network Success: Demonstrated meaningful improvements with regularization techniques, reducing overfitting while identifying patterns in complex data.
+3. Neural Network Success: Demonstrated meaningful improvements with regularization techniques, reducing over-fitting while identifying patterns in complex data.
 #### Key Visualizations:
 1. Heat maps: Highlighted correlations between features.
 2. Model Comparisons: Accuracy and confusion matrices for Random Forest, Gradient Boosting, and Neural Networks.
@@ -109,4 +120,36 @@ This project leverages machine learning and data analysis to predict and classif
 - Includes data cleaning scripts, machine learning models, visualizations, and project documentation.
 #### Summary:
 This project showcases a comprehensive approach to building and optimizing machine learning models for credit score classification. By combining rigorous data preparation, insights extraction, and model development, this system offers financial institutions a reliable tool for assessing credit risk.
+
+### Assignment 1: Crowdfunding Campaign Analysis
+#### Overview: 
+This project involved analyzing a dataset of crowdfunding campaigns to uncover key trends, patterns, and insights. Using Excel, I explored success rates, backer trends, and category popularity while creating visualizations and performing statistical analyses.
+#### Key Objectives:
+1. Analyze the success rates of crowdfunding campaigns based on categories and subcategories.
+2. Identify yearly and monthly trends that influence campaign outcomes.
+3. Highlight regional and demographic factors that may impact success rates.
+#### Techniques & Tools Used:
+1. Excel Functions: Used advanced formulas like **VLOOKUP**, **INDEX-MATCH**, and pivot tables for data manipulation and organization.
+2. Visualizations: Created pie charts, bar graphs, and trend lines to illustrate monthly outcomes, category trends, and regional distributions.
+3. Statistical Analysis: Calculated the median and variability of backers to understand campaign success trends while mitigating the impact of outliers.
+#### Insights:
+1. Success Rates:
+   - Categories like theater and subcategories such as plays showed high success rates, indicating their popularity among 
+     backers.
+   - Successful campaigns exhibit higher variability in the number of backers, attracting a wider range of supporters.
+2. Trends Over Time:
+   - Certain months showed significantly higher success rates, emphasizing the importance of timing for campaign launches.
+3. Geographic Trends:
+   - Regional analysis (suggested using map visualizations) revealed varying levels of success based on campaign locations.
+#### Challenges & Limitations:
+1. The dataset lacked information on target audience demographics, such as age or cultural preferences, which could influence campaign success.
+2. Details about the specifics of campaigns (e.g., types of food, music, or movies) were unavailable, limiting deeper insights.
+#### Key Visualizations:
+1. Pie Charts: Illustrated the monthly outcomes of campaigns.
+2. Bar Graphs: Highlighted the popularity of categories and subcategories.
+3. Trend Lines: Showed annual changes in success rates.
+#### Conclusion:
+This project demonstrates the power of Excel for conducting exploratory data analysis and deriving actionable insights. By leveraging visualizations and statistical analysis, I uncovered patterns that can guide future crowdfunding strategies, emphasizing the importance of timing, category focus, and regional targeting.
+
+
 
